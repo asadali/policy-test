@@ -21,7 +21,6 @@ test_violation {
         {"id": "p3", "network": "net2"}
     ]
     }
-  unsafe_servers := [{"id": "test-id", "protocols" : ["telnet"]}]
   count(violation) == 2 with input as test_input
   allow == false
 }
