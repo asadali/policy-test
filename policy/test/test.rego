@@ -22,7 +22,7 @@ mock_input := {
 }
 
 test_violation {
-	violations := data.rules.violation with input as mock_input
+	violations := data.backup.violation with input as mock_input
 	count(violations) == 2
 	not data.rules.allow with input as mock_input
 }
