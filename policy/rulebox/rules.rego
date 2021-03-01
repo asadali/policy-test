@@ -9,5 +9,9 @@ allow {
 }
 
 allow {
-    input.bar == "foo"
+	input.bar == "foo"
+}
+
+allow {
+	input.foo == "baz"
 }
