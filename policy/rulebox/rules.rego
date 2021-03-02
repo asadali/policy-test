@@ -11,7 +11,3 @@ allow {
 allow {
 	input.bar == "foo"
 }
-
-allow {
-	input.foo == "baz"
-}
