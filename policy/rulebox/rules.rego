@@ -1,7 +1,5 @@
 package rulebox
 
-foo := "bar"
-
 default allow = false
 
 allow {
@@ -10,4 +8,8 @@ allow {
 
 allow {
 	input.bar == "foo"
+}
+
+allow {
+    input.car == "bar"
 }
